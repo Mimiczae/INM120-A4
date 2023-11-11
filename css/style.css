@@ -1,0 +1,365 @@
+/* font-family: 'Poppins', sans-serif; */
+
+/*  */
+
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+header,
+footer {
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 100px;
+}
+.nav-links a {
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  padding-top: 90px; /* Adjust this value based on your header height */
+}
+
+#home {
+  /* width: 100vw; */
+  height: calc(100vh - 90px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/group-portrait-adorable-puppies.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home-content {
+  padding: 200px 0;
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+.home-content h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 30px 0 50px 0;
+}
+.home-content h2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+/*  */
+#about {
+  background-color: white;
+  display: flex;
+  padding: 50px 50px;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+.dog-img {
+  height: 250px;
+  width: 300px;
+  background-image: url(../assets/pngwing.com.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about-content {
+  width: 40%;
+  padding: 0 20px;
+}
+.about-content h1 {
+  text-align: center;
+  margin: 25px 0 25px 0;
+  font-size: 25px;
+  font-weight: 800;
+}
+.about-content p {
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+#carousel {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+}
+#carousel h1 {
+  font-weight: 800;
+  font-size: 25px;
+}
+.carousel-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.card img {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+  border-radius: 15px;
+  margin: 20px 20px;
+}
+.card figcaption {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  /* background-color: orange; */
+  font-weight: 450;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.carousel-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#help {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+}
+#help h1 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+#donation {
+  background-color: #d3d3d3;
+  display: flex;
+  padding: 50px 50px;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  box-sizing: border-box;
+}
+.donation-info {
+  width: 40%;
+  padding: 0 20px;
+}
+.donation-info h1 {
+  margin: 0 0 10px 0;
+  font-size: 25px;
+  font-weight: 800;
+}
+.donation-info p {
+  font-size: 15px;
+  font-weight: 450;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.dog-img2 {
+  height: 250px;
+  width: 300px;
+  background-image: url(../assets/cute-pet-collage-isolated.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.donation-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.donation-info-header button {
+  background: #c27ba0;
+  border: 0px black solid;
+  border-radius: 10px;
+  padding: 15px 25px;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 450;
+}
+#contact {
+  background-color: pink;
+  padding: 50px;
+}
+.contact-cont {
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.contact-head {
+  font-size: 25px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+.contact-info-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  line-height: 1.5;
+}
+.contact-info {
+  font-size: 15px;
+  font-weight: 450;
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  font-size: 15px;
+  font-weight: 450;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+#contact-mobile {
+  display: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 430px) {
+  html {
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .nav-brand {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    margin: 5px;
+  }
+
+  .nav-links a:nth-child(5) {
+    display: none;
+  }
+
+  #home {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home h1 {
+    font-size: 40px;
+    color: white;
+    height: 50%;
+    flex-direction: column;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .home-content {
+    width: 85%;
+  }
+
+  .home-content h2 {
+    font-size: 16px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content {
+    margin: 10px;
+    width: 95%;
+  }
+
+  #carousel h1 {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .carousel-cont {
+    padding: 20px 0;
+  }
+
+  #donation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .donation-info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .donation-info-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #contact {
+    display: none;
+  }
+
+  #contact-mobile {
+    background-color: pink;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-mobile-content {
+    width: 90%;
+    padding: 10px 20px;
+  }
+
+  .contact-mobile-qna {
+    margin: 20px 0;
+  }
+
+  .contact-mobile-qna h1 {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+}
